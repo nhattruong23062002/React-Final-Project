@@ -1,0 +1,29 @@
+.wrapperOffer{
+    background-color: #fff;
+    height: 400px;
+    list-style: none;
+}
+.wrapperOffer h4{
+    color: var(--footer-bg);
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.wrapperOffer img{
+    position: relative;
+}
+.wrapperOffer > span{
+    font-size: 14px;
+    color: var(--text-color);
+}
+.wrapperOffer p{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.wrapperOffer  a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.wrapperOffer  a:hover{
+    color: var(--main-color);
+}

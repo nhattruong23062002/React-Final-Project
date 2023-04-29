@@ -1,0 +1,144 @@
+.wrapperInputHome{
+    background-color: var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+.InputHome{
+    margin-top: 20px;
+    border-radius: 3px;
+    width: 191px;
+    height: 40px;;
+    border: none;
+    padding-left: 5px;
+}
+.errorMassageNameHome{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    width: 220px;
+    left: -10px;  
+}
+.errorMassageEmailHome{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    width: 200px;
+}
+.errorMassagePhoneHome{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    width: 220px;
+}
+.wrapperInputProduct{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.InputProduct{
+    width: 25%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+.errorMassageNameProduct {
+    position: relative;
+    color: black;
+    font-size: 3px;
+    left: 0;
+}
+.errorMassageEmailProduct{
+    position: relative;
+    color: black;
+    font-size: 14px;
+}
+.errorMassagePhoneProduct{
+    position: relative;
+    color: black;
+    font-size: 14px;
+}
+.successSend{
+    color: #fff;
+    margin-left: 5px;
+    display: inline;
+}
+
+/* responsive */
+@media (min-width:740px) and (max-width: 1023px){
+
+    .wrapperInputHome{
+        background-color: var(--main-color);
+        position: relative;
+        text-align: center;
+        padding:0px;
+        padding: 20px 0px;
+    }
+    .InputHome{
+        margin-top: 2px;
+        border-radius: 3px;
+        width: 280px;
+        height: 40px;;
+        border: none;
+    }
+    .errorMassageNameHome{
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        width: 220px;
+        margin-left: 60px;
+    }
+    .errorMassageEmailHome{
+        position: absolute;
+        color: #fff;
+        font-size: 14px;
+        width: 200px;
+        margin-left: 30px;
+    }
+    
+    .errorMassagePhoneHome{
+        position: absolute;
+        color: #fff;
+        font-size: 14px;
+        width: 220px;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 739px){
+    .wrapperInputHome{
+        background-color: var(--main-color);
+        position: relative;
+        text-align: center;
+        padding:0px;
+        padding: 20px 0px;
+    }
+    .InputHome{
+        margin-top: 2px;
+        border-radius: 3px;
+        width: 280px;
+        height: 40px;;
+        border: none;
+    }
+    .errorMassageNameHome{
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        margin-left: 60px;
+    }
+    .errorMassageEmailHome{
+        position: absolute;
+        color: #fff;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+    
+    .errorMassagePhoneHome{
+        position: absolute;
+        color: #fff;
+        font-size: 14px;
+        margin-left: 40px;
+    }
+}

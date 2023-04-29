@@ -1,0 +1,24 @@
+.listOffers{
+
+}
+.customClassOffer{
+    display: flex;
+    justify-content: space-between;
+}
+.customWrapTextOffer{
+    background-color: #fff;
+    position: absolute;
+    padding: 30px 30px;
+    width: 330px;
+    bottom: 0px;
+    height: 200px;
+}
+.customWrapTextOffer span{
+    display: none;
+}
+.customWrapTextOffer p{
+    font-size: 16px;
+}
+.customWrapTextOffer div a{
+    font-size: 16px;
+}

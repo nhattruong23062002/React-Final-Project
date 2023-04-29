@@ -1,0 +1,43 @@
+.wrapper{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+img{
+    width: 100%;
+}
+.information{
+    padding: 40px 0px 0px 40px;
+}
+.informationTop{
+    
+}
+.informationTop h3{
+    color: var(--main-color);
+    font-size: 20px;
+    margin-top: 0px;
+}
+.informationTop h1{
+    font-size: 36px;
+    color: var(--footer-bg);
+    padding: 10px 0px;
+}
+.informationTop p{
+    font-size: 16px;
+}
+.informationBottom{
+    margin-top: 30px;
+}
+.informationBottom h4{
+    font-size: 16px;
+    color: var(--footer-bg);
+    margin-bottom: 5px;
+}
+.informationBottom span{
+    font-size: 24px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.informationBottom p{
+    font-size: 16px;
+    margin-top: 5px;
+}

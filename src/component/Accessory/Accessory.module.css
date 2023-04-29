@@ -1,0 +1,39 @@
+.list{
+    display: flex;
+    margin-top:10px ;
+}
+.product{
+    position: relative;
+    flex: 1;
+    text-align: center;
+    height:330px;
+}
+.img{
+    width: 100%;
+}
+.wrapper__infor{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 20px;
+    color: black;
+    margin-top: 5px;
+}
+.price{
+    color:orangered;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.oldPrice{
+    color: #ccc;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.wrapper__price{
+    position: absolute;
+    bottom: 0;
+}
