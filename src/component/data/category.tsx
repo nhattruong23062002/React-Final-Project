@@ -1,18 +1,18 @@
 export const categorydata=[
     {
-        id: 1,
+        id: 6,
         name: "Product 1"
       },
       {
-        id: 2,
+        id: 8,
         name: "Product 2"
       },
       {
-        id: 3,
+        id: 9,
         name: "Product 3"
       },
       {
-        id: 4,
+        id: 10,
         name: "Product 4"
       }
 ]

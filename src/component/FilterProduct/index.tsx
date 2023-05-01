@@ -11,7 +11,6 @@ const FilterProduct = () => {
 
     let filterCategory = useProducts(state => state.filterCategory);
     let category = useProducts(state => state.category);
-
   return (
     <div>
          <ul style={{marginTop:'10px'}}>    

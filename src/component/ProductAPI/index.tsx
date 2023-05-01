@@ -34,7 +34,9 @@ const ProductAPI = () => {
                 
                 let result = await response.json();
                 if(category > 0){
-                    result = await result.filter((item: any)=>item.id == category)
+                    result = await result.filter((item:any) => {
+                        return item.id == category;
+                    })
                 }
                 if(!response.ok) {
                     const error = new Error('An Error Occured');
